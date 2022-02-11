@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import Home from './Landing/home';
+import Home from './Pages/Landing/home';
 import db from './Data/db.json';
 function App() {
   const [data, setdata] = useState(db);

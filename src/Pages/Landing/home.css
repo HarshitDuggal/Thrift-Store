@@ -1,0 +1,25 @@
+.home{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.img-new{
+    position: absolute;
+    margin-left: 8rem;
+    
+}
+.img-side{
+    position: absolute;
+    margin-left: 62.5rem;
+    margin-top: 7rem;
+}
+.logomeg{
+    position: absolute;
+    margin-left: 35rem;
+    top: -3rem;
+}
+.logo{
+    width: 25rem;
+    height: 20rem;
+    
+}
