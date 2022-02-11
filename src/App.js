@@ -1,9 +1,12 @@
 import './App.css';
-
+import { useState } from 'react';
+import Home from './Landing/home';
+import db from './Data/db.json';
 function App() {
-  return (
+  const [data, setdata] = useState(db);
+    return (
     <div className="App">
-      <h1>Thrift store</h1>
+      <Home data = {data}/>
     </div>
   );
 }
