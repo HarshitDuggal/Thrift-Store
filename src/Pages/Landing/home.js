@@ -16,13 +16,13 @@ const Home = (props) => {
                    )
                })} */}
                <div className = 'img-new'>
-                   <img src="https://images.unsplash.com/photo-1459802071246-377c0346da93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=409&q=80" alt='fashion1'/>
+                   <img className='side-wid' src="https://www.maxpixel.net/static/photo/1x/Shoert-Girl-Legs-Models-Black-And-White-1346767.jpg" alt='fashion1'/>
                </div>
                <div className='logomeg'>
                     <img className='logo' src={Logo}/>
                </div>
                <div className = 'img-side'>
-                   <img src="https://images.unsplash.com/photo-1459802071246-377c0346da93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=409&q=80" alt='fashion1'/>
+                   <img className='side-wid'src="https://www.maxpixel.net/static/photo/1x/Shoert-Girl-Legs-Models-Black-And-White-1346767.jpg" alt='fashion1'/>
                </div>
            </div>
         </>
