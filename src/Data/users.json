@@ -2,11 +2,15 @@
     "users": [
       {
         "email": "buyer@gmail.com",
-        "id": 1
+        "password":"password",
+        "id": 1,
+        "role": "buyer"   
       },
       {
-        "email": "harshit@gmail.com",
-        "id": 2
+        "email": "seller@gmail.com",
+        "password":"password",
+        "id": 2,
+        "role": "seller"   
       }
     ]
   }

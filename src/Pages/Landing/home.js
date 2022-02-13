@@ -19,7 +19,7 @@ const Home = (props) => {
                    <img className='side-wid' src="https://www.maxpixel.net/static/photo/1x/Shoert-Girl-Legs-Models-Black-And-White-1346767.jpg" alt='fashion1'/>
                </div>
                <div className='logomeg'>
-                    <img className='logo' src={Logo}/>
+                    <img className='logo' src={Logo} alt="logo"/>
                </div>
                <div className = 'img-side'>
                    <img className='side-wid'src="https://www.maxpixel.net/static/photo/1x/Shoert-Girl-Legs-Models-Black-And-White-1346767.jpg" alt='fashion1'/>
