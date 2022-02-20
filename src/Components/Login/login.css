@@ -1,0 +1,26 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+.login{
+    margin-top: 1rem;
+    width: 20%;
+}
+.form{
+    width: 100%;
+    margin-left: 38rem;
+    border: 2px solid black;
+}
+button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding-top: .25rem;
+    padding-bottom:.25rem ;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+

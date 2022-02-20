@@ -14,14 +14,11 @@ function App() {
     //   <Navbar/>
     //   <div className="App">
     //     <Switch>
-    //       <Route exactpath="/" >
-    //         <Home data={data} />
-    //       </Route>
-    //       <Route exactpath="/login" >
-    //         <Login />
-    //       </Route>
+    //       <Route exact path="/"  >
+    //         <Home data={data}/>
+    //         </Route>
+    //       <Route exact path="/login"  component={Login}/>
     //     </Switch>
-    //     <Home data={data} />
     //   </div>
     // </Router>
     <div className="App">

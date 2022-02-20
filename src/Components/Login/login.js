@@ -21,15 +21,20 @@ const Login = (props) => {
         <div className="login">
             <div className="form">
             <form onSubmit={handleSubmit}>
-                <label htmlFor="Email">
+                <div classname="label1">
+                <label  htmlFor="Email">
                     Email:{"    "}
                 </label>
                 <input name="Email" type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
-                <label htmlFor="Password">
+                </div>
+                <br></br>
+                <div className="label2">
+                <label htmlFor="Password" >
                     Password:{"    "}
                 </label>
                 <input name="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
-                <button type="submit">Login</button>
+                </div>
+                <button type="submit" classname="button">Login</button>
             </form>
             </div>            
         </div>
