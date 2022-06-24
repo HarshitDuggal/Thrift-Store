@@ -2,23 +2,25 @@ import "./App.css";
 import { useState } from "react";
 import Home from "./Pages/Landing/home";
 import db from "./Data/db.json";
-import users from "./Data/users.json";
+// import users from "./Data/users.json";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./Components/Login/login";
-// import Navbar from "./Components/Navbar/navbar";
+import Navbar from "./Components/Navbar/navbar";
 
 function App() {
   const [data, setdata] = useState(db);
   return (
+    
     <Router>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="App">
+       
         <Routes>
           {/* <Route exact path="/">
             <Home data={data} />
           </Route> */}
-          {/* <Route exact path="/login" component={Login} /> */}
-          <Route path="/" element={<Home/>} />
+          {/* <Route exact path="/login" component={Login} /> */}   
+          <Route path="/" element={<Home data/>} />
 
           <Route path="/login" element={<Login/>} />
         </Routes>

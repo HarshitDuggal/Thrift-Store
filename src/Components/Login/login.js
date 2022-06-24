@@ -1,7 +1,8 @@
 import { useState } from "react";
+import users from "../../Data/users.json"
 import './login.css'
-const Login = (props) => {
-    const users = props.users;
+const Login = () => {
+    // console.log(users);
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const handleSubmit = (e) => {
@@ -10,7 +11,7 @@ const Login = (props) => {
         // console.log(password);
         users.users.map((user)=>{
             if(user.email===email && user.password===password){
-                alert("Logged in")
+                alert("Logged in")                
             }
             else{
                 alert("Enter right credentials")
@@ -21,7 +22,7 @@ const Login = (props) => {
         <div className="login">
             <div className="form">
             <form onSubmit={handleSubmit}>
-                <div classname="label1">
+                <div className="label1">
                 <label  htmlFor="Email">
                     Email:{"    "}
                 </label>
@@ -34,7 +35,7 @@ const Login = (props) => {
                 </label>
                 <input name="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
                 </div>
-                <button type="submit" classname="button">Login</button>
+                <button type="submit" className="button">Login</button>
             </form>
             </div>            
         </div>
